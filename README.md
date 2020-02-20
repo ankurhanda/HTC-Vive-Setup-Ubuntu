@@ -92,7 +92,7 @@ source the `run_openvr.sh` file
 source run_openvr.sh
 ```
 
-### Running Examples with OpenVR 
+### Running HelloVR example with OpenVR 
 
 Now run the Steam server via 
 ```
@@ -108,3 +108,12 @@ You should see the following images streamed in your Vive when you wear it
 ![HelloVR view1](/images/hellovr_1.png) 
 
 ![HelloVR view2](/images/hellovr_2.png) 
+
+### Running TrackingCamera example with OpenVR 
+
+To run this example, you have to enable the camera via `SteamVR` as shown in the gif below: 
+
+![Enable Camera](/images/enable_camera.gif) 
+
+
+
