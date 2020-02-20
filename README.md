@@ -9,9 +9,30 @@ Get the latest versin of Steam from [Steam Store](https://www.steamvr.com/en/)
 
 Make sure you have an up-to-date NVIDIA driver (on 20th Feb 2020, we had NVIDIA driver version 430.64 installed on our Ubuntu 16.04). We installed the driver via `NVIDIA-Linux-x86_64-430.64.run` file we obtained from the NVIDIA website. You will need to make sure it also installs 32-bit GL libraries, so click on Yes when it prompts during the installation process.
 
+### Troubleshooting
+If you do not install 32-bit GL libraries, you may the following error 
+
+```
+You are missing the following 32-bit libraries, and Steam may not run:libGL.so.1
+```
+
+
 For further requirements please check [https://github.com/ValveSoftware/SteamVR-for-Linux](https://github.com/ValveSoftware/SteamVR-for-Linux)
 
 Make sure you have SteamVR beta (and not linux_temp) version installed otherwise the SteamVR apps and OpenVR will not work. 
+
+Search for SteamVR in the steam application, you should see the following image ![SteamVR search](/images/steam_vr_search.png). 
+
+Click on Launch to install it. 
+
+Now, to ensure that you install SteamVR beta, right click on the SteamVR app and click on properties. You will see another window pop up like this 
+
+![SteamVR properties](/images/steam_vr_properties.png) 
+
+Now click on **BETAS** and you can select beta from the options presented in the menu 
+
+![SteamVR Beta](/images/steam_vr_beta.png) 
+
 
 ## Installing OpenVR 
 
