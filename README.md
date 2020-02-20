@@ -143,3 +143,17 @@ TypeError: cannot be converted to pointer
 
 This is also mentioned in this particular [issue](https://github.com/cmbruns/pyopenvr/issues/20) in the pyopenvr repository. 
 
+Install `pyopenvr` via 
+```
+python setup.py install 
+```
+Make sure that the `PYTHONPATH` variable is set up correctly:
+
+```
+export PYTHONPATH=~/workspace/code/pyopenvr/src:$PYTHONPATH
+```
+Now you should be able run the samples in python via 
+
+```
+~/.steam/steam/ubuntu12_32/steam-runtime/run.sh python src/samples/glfw/hellovr_glfw.py
+```
