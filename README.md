@@ -157,3 +157,6 @@ Now you should be able run the samples in python via
 ```
 ~/.steam/steam/ubuntu12_32/steam-runtime/run.sh python src/samples/glfw/hellovr_glfw.py
 ```
+and see the following image 
+
+[HelloVR PyOpenVR](/images/hello_vr_pyopenvr.png)
