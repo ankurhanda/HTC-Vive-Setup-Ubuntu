@@ -130,11 +130,11 @@ and see the following images
 
 ## Installing pyopenvr 
 
-If you'd like to play these examples in python then we recommend to install this (unofficial) version of [pyopenvr](https://github.com/cmbruns/pyopenvr)
+If you'd like to play these examples in python then we recommend to install this (unofficial) version of [pyopenvr](https://github.com/cmbruns/pyopenvr).
 
 This requires Python 3.5+ and many other dependencies including `pillow, pyopengl, glfw` etc. 
 
-In addition, it is important to change `c_void_p` in this [line](https://github.com/cmbruns/pyopenvr/blob/master/src/openvr/__init__.py#L1728-L1733) in the pyopenvr code to `c_uint32` otherwise any python example will crash with message that might be like this:
+In addition, it is important to change `c_void_p` in this [line](https://github.com/cmbruns/pyopenvr/blob/master/src/openvr/__init__.py#L1728-L1733) in the pyopenvr code to `c_uint32` otherwise any python example will crash with a message that might look like this:
 
 ```
   self.texture.handle = self.resolve_texture_id
