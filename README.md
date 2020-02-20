@@ -115,5 +115,16 @@ To run this example, you have to enable the camera via `SteamVR` as shown in the
 
 ![Enable Camera](/images/enable_camera.gif) 
 
+Once the camera is enabled, you should be able to play the tracking camera example via 
+
+```
+~/.steam/steam/ubuntu12_32/steam-runtime/run.sh ~/workspace/code/openvr/samples/bin/linux64/tracked_camera_openvr_sample
+```
+
+and see the following images 
+
+![Tracking Camera1](/images/tracking_example_1.png) 
+
+![Tracking Camera2](/images/tracking_example_2.png) 
 
 
