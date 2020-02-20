@@ -53,3 +53,14 @@ $steamvr/bin/linux64/:\
 $steamvr/drivers/lighthouse/bin/linux32/:\
 $steamvr/drivers/lighthouse/bin/linux64/
 ```
+
+We also need to set up the following permissions 
+
+```
+$ sudo vim /etc/udev/rules.d/83-hmd.rules
+$ echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0666", GROUP="plugdev"' >> test.txt 
+$ echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="28de", MODE="0666", GROUP="plugdev"' >> test.txt
+$ sudo cp test.txt /etc/udev/rules.d/83-hmd.rules
+$ sudo udevadm control --reload-rules
+```
+The file `/etc/udev/rules.d/83-hmd.rules` may not exist, so it needs to be created first. 
