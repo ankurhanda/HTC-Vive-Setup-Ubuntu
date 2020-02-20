@@ -115,5 +115,45 @@ To run this example, you have to enable the camera via `SteamVR` as shown in the
 
 ![Enable Camera](/images/enable_camera.gif) 
 
+Once the camera is enabled, you should be able to play the tracking camera example via 
+
+```
+~/.steam/steam/ubuntu12_32/steam-runtime/run.sh ~/workspace/code/openvr/samples/bin/linux64/tracked_camera_openvr_sample
+```
+
+and see the following images 
+
+![Tracking Camera1](/images/tracking_example_1.png) 
+
+![Tracking Camera2](/images/tracking_example_2.png) 
 
 
+## Installing pyopenvr 
+
+If you'd like to play these examples in python then we recommend to install this (unofficial) version of [pyopenvr](https://github.com/cmbruns/pyopenvr).
+
+This requires Python 3.5+ and many other dependencies including `pillow, pyopengl, glfw` etc. 
+
+In addition, it is important to change `c_void_p` in this [line](https://github.com/cmbruns/pyopenvr/blob/master/src/openvr/__init__.py#L1728-L1733) in the pyopenvr code to `c_uint32` otherwise any python example will crash with a message that might look like this:
+
+```
+  self.texture.handle = self.resolve_texture_id
+TypeError: cannot be converted to pointer
+```
+
+This is also mentioned in this particular [issue](https://github.com/cmbruns/pyopenvr/issues/20) in the pyopenvr repository. 
+
+Install `pyopenvr` via 
+```
+python setup.py install 
+```
+Make sure that the `PYTHONPATH` variable is set up correctly:
+
+```
+export PYTHONPATH=~/workspace/code/pyopenvr/src:$PYTHONPATH
+```
+Now you should be able run the samples in python via 
+
+```
+~/.steam/steam/ubuntu12_32/steam-runtime/run.sh python src/samples/glfw/hellovr_glfw.py
+```
