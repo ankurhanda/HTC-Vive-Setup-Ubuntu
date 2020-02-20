@@ -21,7 +21,9 @@ For further requirements please check [https://github.com/ValveSoftware/SteamVR-
 
 Make sure you have SteamVR beta (and not linux_temp) version installed otherwise the SteamVR apps and OpenVR will not work. 
 
-Search for SteamVR in the steam application, you should see the following image ![SteamVR search](/images/steam_vr_search.png). 
+Search for SteamVR in the steam application, you should see the following image:
+
+![SteamVR search](/images/steam_vr_search.png) 
 
 Click on Launch to install it. 
 
