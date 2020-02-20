@@ -25,9 +25,7 @@ Search for SteamVR in the steam application, you should see the following image:
 
 ![SteamVR search](/images/steam_vr_search.png) 
 
-Click on Launch to install it. 
-
-Now, to ensure that you install SteamVR beta, right click on the SteamVR app and click on properties. 
+Click on Launch to install it. Now, to ensure that you install SteamVR beta, right click on the SteamVR app and click on properties. 
 
 ![SteamVR properties](/images/steam_vr_properties.png) 
 
