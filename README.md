@@ -47,7 +47,6 @@ $ mkdir build
 $ cd !$
 $ cmake -DCMAKE_BUILD_TYPE=Release ../
 $ make
-
 ```
 
 Now plug in the vive and set up the permissions as below: 
@@ -104,4 +103,8 @@ In another window, run this `hellovr_opengl` example
 ```
 ~/.steam/steam/ubuntu12_32/steam-runtime/run.sh ~/workspace/code/openvr/samples/bin/linux64/hellovr_opengl
 ```
-You should see the following image streamed in your Vive when you wear it. 
+You should see the following images streamed in your Vive when you wear it 
+
+![HelloVR view1](/images/hellovr_1.png) 
+
+![HelloVR view2](/images/hellovr_2.png) 
