@@ -1,6 +1,8 @@
 # HTC-Vive-Setup-Ubuntu
 Step by step guide to setting up HTC Vive on Ubuntu
 
+Ankur Handa and Clemens Eppner 
+
 ## Installing Steam
 
 Get the latest versin of Steam from [Steam Store](https://www.steamvr.com/en/)
