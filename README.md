@@ -93,11 +93,13 @@ source the `run_openvr.sh` file
 source run_openvr.sh
 ```
 
+### Running Examples with OpenVR 
+
 Now run the Steam server via 
 ```
 $steamvr/bin/linux64/vrserver --keepalive
 ```
-In another window, run this example 
+In another window, run this `hellovr_opengl` example 
 
 ```
 ~/.steam/steam/ubuntu12_32/steam-runtime/run.sh ~/workspace/code/openvr/samples/bin/linux64/hellovr_opengl
