@@ -159,4 +159,4 @@ Now you should be able run the samples in python via
 ```
 and see the following image 
 
-[HelloVR PyOpenVR](/images/hello_vr_pyopenvr.png)
+![HelloVR PyOpenVR](/images/hello_vr_pyopenvr.png)
