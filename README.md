@@ -86,3 +86,20 @@ $ sudo cp test.txt /etc/udev/rules.d/83-hmd.rules
 $ sudo udevadm control --reload-rules
 ```
 The file `/etc/udev/rules.d/83-hmd.rules` may not exist, so it needs to be created first. 
+
+source the `run_openvr.sh` file 
+
+```
+source run_openvr.sh
+```
+
+Now run the Steam server via 
+```
+$steamvr/bin/linux64/vrserver --keepalive
+```
+In another window, run this example 
+
+```
+~/.steam/steam/ubuntu12_32/steam-runtime/run.sh ~/workspace/code/openvr/samples/bin/linux64/hellovr_opengl
+```
+You should see the following image streamed in your Vive when you wear it. 
