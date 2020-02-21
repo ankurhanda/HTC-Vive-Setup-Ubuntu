@@ -21,13 +21,11 @@ You are missing the following 32-bit libraries, and Steam may not run:libGL.so.1
 
 For further requirements please check [https://github.com/ValveSoftware/SteamVR-for-Linux](https://github.com/ValveSoftware/SteamVR-for-Linux)
 
-Make sure you have SteamVR beta (and not linux_temp) version installed otherwise the SteamVR apps and OpenVR will not work. 
-
 Search for SteamVR in the steam application, you should see the following image:
 
 ![SteamVR search](/images/steam_vr_search.png) 
 
-Click on Launch to install it. Now, to ensure that you install SteamVR beta, right click on the SteamVR app and click on properties. 
+Click on Launch to install it. Make sure you have SteamVR beta (and not linux_temp) version installed otherwise the SteamVR apps and OpenVR will not work. Now, to ensure that you install SteamVR beta, right click on the SteamVR app and click on properties. 
 
 ![SteamVR properties](/images/steam_vr_properties.png) 
 
